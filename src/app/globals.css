@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
+@theme {
+  --color-ocean-900: #020c1b;
+  --color-ocean-800: #0a192f;
+  --color-ocean-700: #112240;
+  --color-ocean-600: #233554;
+  --color-ocean-300: #8892b0;
+  --color-ocean-100: #ccd6f6;
+  --color-ocean-50: #e6f1ff;
+  --color-accent: #64ffda;
+  
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: var(--color-ocean-900);
+  --foreground: var(--color-ocean-50);
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
 }
