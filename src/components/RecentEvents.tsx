@@ -34,8 +34,8 @@ const RecentEvents = () => {
                     </p>
                 </motion.div>
 
-                {/* Masonry Layout */}
-                <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">
+                {/* Grid Layout */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     {images.map((num, index) => (
                         <motion.div
                             key={num}
@@ -43,19 +43,19 @@ const RecentEvents = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
-                            className="break-inside-avoid relative group rounded-xl overflow-hidden border border-ocean-700 hover:border-accent/50 transition-all duration-300"
+                            className="relative group rounded-xl overflow-hidden border border-ocean-700 hover:border-accent/50 transition-all duration-300 will-change-transform h-64 sm:h-80"
                         >
                             <Image
                                 src={`/images/recent-events/event-${num}.jpg`}
                                 alt={`GUPC Recent Event ${num}`}
-                                width={500}
-                                height={500}
-                                className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500"
+                                fill
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                className="object-cover transform group-hover:scale-105 transition-transform duration-500"
                                 priority={index < 3}
                             />
 
                             {/* Overlay */}
-                            <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10">
                                 <span className="text-white font-semibold border-b-2 border-accent pb-1">GUPC Event</span>
                             </div>
                         </motion.div>

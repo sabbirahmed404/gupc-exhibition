@@ -28,7 +28,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="flex flex-col items-center"
+                    className="flex flex-col items-center will-change-transform"
                 >
                     <span className="inline-block py-1.5 px-4 rounded-full bg-ocean-800/80 backdrop-blur-sm border border-ocean-600 text-accent text-xs sm:text-sm font-semibold mb-4 sm:mb-6 tracking-wide uppercase">
                         Victory Day • 16 December
