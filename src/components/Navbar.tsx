@@ -38,7 +38,7 @@ const Navbar = () => {
                         </Link>
                         <div className="hidden md:block w-px h-6 bg-ocean-600 mx-2"></div>
                         <div className="hidden md:flex items-center text-ocean-300 text-xs font-medium uppercase tracking-widest">
-                            Green University
+                            Green University Photography Club
                         </div>
                     </div>
 
