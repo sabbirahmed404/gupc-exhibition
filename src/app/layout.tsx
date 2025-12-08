@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   title: "GUPC Exhibition | Victory Day 2025",
   description: "Join the Green University Photography Club Exhibition celebrating Bangladesh's Victory Day.",
   icons: {
-    icon: '/gupc-logo.png',
-    shortcut: '/gupc-logo.png',
-    apple: '/gupc-logo.png',
+    icon: '/logo-02.jpg',
+    shortcut: '/logo-02.jpg',
+    apple: '/logo-02.jpg',
   },
   openGraph: {
     title: "GUPC Exhibition | Victory Day 2025",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: 'GUPC Exhibition',
     images: [
       {
-        url: '/gupc-logo.png',
+        url: '/logo-02.jpg',
         width: 800,
         height: 600,
         alt: 'GUPC Logo',
