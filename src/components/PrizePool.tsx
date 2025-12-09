@@ -36,12 +36,12 @@ const PrizePool = () => {
                         <div className="text-silver-400 text-5xl mb-4 mx-auto w-16 h-16 flex items-center justify-center bg-ocean-900 rounded-full shadow-lg">
                             <FaMedal className="text-gray-300" />
                         </div>
-                        <h3 className="text-2xl font-bold text-white mb-2">Runner Up</h3>
-                        <div className="text-3xl font-extrabold text-accent mb-4">৳ 3,000</div>
+                        <h3 className="text-2xl font-bold text-white mb-2">Top Selections</h3>
+                        <div className="text-xl font-bold text-accent mb-4">Exciting Prizes</div>
                         <ul className="text-ocean-300 text-sm space-y-2">
                             <li>Certificate</li>
-                            <li>Crest</li>
-                            <li>T-Shirt</li>
+                            <li>Feature in Exhibition</li>
+                            <li>Social Media Feature</li>
                         </ul>
                     </motion.div>
 
@@ -55,13 +55,13 @@ const PrizePool = () => {
                         <div className="text-yellow-400 text-6xl mb-6 mx-auto w-20 h-20 flex items-center justify-center bg-ocean-900 rounded-full shadow-lg border border-accent">
                             <FaCrown />
                         </div>
-                        <h3 className="text-3xl font-bold text-white mb-2">Champion</h3>
-                        <div className="text-5xl font-extrabold text-accent mb-6">৳ 5,000</div>
+                        <h3 className="text-3xl font-bold text-white mb-2">Winners</h3>
+                        <div className="text-2xl font-extrabold text-accent mb-6">Grand Prize Pool</div>
                         <ul className="text-ocean-300 space-y-2">
-                            <li>Certificate</li>
-                            <li>Crest</li>
-                            <li>T-Shirt</li>
-                            <li>Feature in Magazine</li>
+                            <li>Champion Crest</li>
+                            <li>Certificate of Excellence</li>
+                            <li>Exclusive Gift Hamper</li>
+                            <li>Magazine Feature</li>
                         </ul>
                     </motion.div>
 
@@ -76,12 +76,12 @@ const PrizePool = () => {
                         <div className="text-amber-600 text-5xl mb-4 mx-auto w-16 h-16 flex items-center justify-center bg-ocean-900 rounded-full shadow-lg">
                             <FaMedal className="text-[#cd7f32]" />
                         </div>
-                        <h3 className="text-2xl font-bold text-white mb-2">2nd Runner Up</h3>
-                        <div className="text-3xl font-extrabold text-accent mb-4">৳ 2,000</div>
+                        <h3 className="text-2xl font-bold text-white mb-2">Honorable Mention</h3>
+                        <div className="text-xl font-bold text-accent mb-4">Recognition</div>
                         <ul className="text-ocean-300 text-sm space-y-2">
                             <li>Certificate</li>
-                            <li>Crest</li>
-                            <li>T-Shirt</li>
+                            <li>Digital Feature</li>
+                            <li>Community Access</li>
                         </ul>
                     </motion.div>
                 </div>

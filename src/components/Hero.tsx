@@ -31,16 +31,16 @@ const Hero = () => {
                     className="flex flex-col items-center will-change-transform"
                 >
                     <span className="inline-block py-1.5 px-4 rounded-full bg-ocean-800/80 backdrop-blur-sm border border-ocean-600 text-accent text-xs sm:text-sm font-semibold mb-4 sm:mb-6 tracking-wide uppercase">
-                        Victory Day • 16 December
+                        Submission Status: Open Now
                     </span>
                     <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white mb-4 sm:mb-6 leading-[1.1] tracking-tight">
-                        <span className="block mb-1 sm:mb-2">Capturing the Spirit of</span>
+                        <span className="block mb-1 sm:mb-2">Presenting</span>
                         <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent block pb-2">
-                            Victory & Freedom
+                            Face the Frame - Season I
                         </span>
                     </h1>
                     <p className="mt-2 sm:mt-4 max-w-2xl mx-auto text-lg sm:text-xl text-ocean-100 font-medium px-4">
-                        Join the GUPC Photography Exhibition 2025. A celebration of creativity, history, and the art of photography.
+                        Our debut exhibition season. Define your creativity.
                     </p>
 
                     <motion.div
@@ -51,7 +51,7 @@ const Hero = () => {
                     >
                         <div className="flex items-center gap-2 bg-ocean-900/30 px-3 py-1.5 rounded-full backdrop-blur-sm border border-white/5">
                             <FaCalendarAlt className="text-accent" />
-                            <span>16 December 2025</span>
+                            <span>17 - 21 December 2025</span>
                         </div>
                         <div className="hidden sm:block text-ocean-500">•</div>
                         <div className="flex items-center gap-2 bg-ocean-900/30 px-3 py-1.5 rounded-full backdrop-blur-sm border border-white/5">

@@ -35,23 +35,21 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-semibold text-white mb-4">Connect With Us</h4>
                         <div className="flex space-x-4 mb-6">
-                            <a href="#" className="w-10 h-10 rounded-full bg-ocean-800 flex items-center justify-center text-white hover:bg-accent hover:text-ocean-900 transition-all duration-300">
+                            <a href="https://www.facebook.com/wearegupc/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-ocean-800 flex items-center justify-center text-white hover:bg-accent hover:text-ocean-900 transition-all duration-300">
                                 <FaFacebook />
                             </a>
                             <a href="#" className="w-10 h-10 rounded-full bg-ocean-800 flex items-center justify-center text-white hover:bg-accent hover:text-ocean-900 transition-all duration-300">
                                 <FaInstagram />
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-ocean-800 flex items-center justify-center text-white hover:bg-accent hover:text-ocean-900 transition-all duration-300">
-                                <FaYoutube />
-                            </a>
                         </div>
                         <div className="space-y-2 text-ocean-300">
-                            <a href="mailto:gupc@green.edu.bd" className="flex items-center gap-2 hover:text-white transition-colors">
-                                <FaEnvelope /> gupc@green.edu.bd
+                            <a href="mailto:photography.clubs@green.edu.bd" className="flex items-center gap-2 hover:text-white transition-colors">
+                                <FaEnvelope /> photography.clubs@green.edu.bd
                             </a>
-                            <a href="tel:+880123456789" className="flex items-center gap-2 hover:text-white transition-colors">
-                                <FaPhone /> +880 1234 567890
+                            <a href="tel:+8801518788759" className="flex items-center gap-2 hover:text-white transition-colors">
+                                <FaPhone /> +880 1518-788759
                             </a>
+                            <div className="text-xs text-ocean-500 pl-6">(Jamil - Organizing Secretary)</div>
                         </div>
                     </div>
                 </div>

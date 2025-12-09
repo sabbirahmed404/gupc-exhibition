@@ -26,8 +26,8 @@ const Theme = () => {
                     </h2>
 
                     <p className="text-xl md:text-2xl text-ocean-300 max-w-3xl mx-auto leading-relaxed font-light">
-                        No boundaries. No restrictions. <br />
-                        <span className="text-white font-medium">Just pure creativity.</span>
+                        This is your moment to freeze time, capture emotions, and share your unique perspective with the world. <br />
+                        <span className="text-white font-medium">Whether you are an amateur or a professional, this is the platform to define your creativity.</span>
                     </p>
 
                     <div className="mt-12 flex justify-center">
