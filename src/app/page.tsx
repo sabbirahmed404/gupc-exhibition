@@ -15,8 +15,6 @@ export default function Home() {
       <Theme />
       <Exhibition />
       <RecentEvents />
-      <Judges />
-      <PrizePool />
       <Footer />
     </div>
   );
