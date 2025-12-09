@@ -39,6 +39,8 @@ export const metadata: Metadata = {
   },
 };
 
+import VisitorTracker from "@/components/VisitorTracker";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -49,6 +51,7 @@ export default function RootLayout({
       <body
         className={`${outfit.variable} ${inter.variable} antialiased bg-ocean-900 text-ocean-50`}
       >
+        <VisitorTracker />
         <Navbar />
         <main className="pt-16 min-h-screen">
           {children}
