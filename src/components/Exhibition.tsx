@@ -211,10 +211,6 @@ const Exhibition = () => {
                     >
                         Submit Your Entry Now <FaFileUpload />
                     </a>
-
-                    <p className="mt-8 text-ocean-400 text-sm max-w-2xl mx-auto italic">
-                        "The exhibition is dedicated to the brave souls and heroes of 1971, honoring their courage, sacrifice, and the triumph of our nation." 🌟
-                    </p>
                 </motion.div>
             </div>
         </section>
